@@ -1,0 +1,48 @@
+.footer{
+    
+    background-color: transparent;
+    height: 100px;
+    margin-top: 2em;
+    
+    color: white;
+    margin-bottom: 100px;
+}
+
+.footer span{
+    font-weight: bold;
+}
+
+.p_footer{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+.divIcons{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+.Icons{
+    
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    float: none;
+    margin: 10px;
+    border-radius: 50%;
+   
+    
+    border: 3px solid #ffffff;
+    
+}
+
+
+.Icons:hover{
+    
+    border: 3px solid #000000;
+    transition: .6s;
+}

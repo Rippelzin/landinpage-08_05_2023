@@ -1,0 +1,181 @@
+.formulario{
+  background-color: #9247e2;
+}
+
+
+@media screen and (max-width: 600px) {
+  .containerCima {
+    flex-direction: column;
+    height: auto;
+  }
+  .box1 {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+  }
+  .box2 {
+    width: 100%;
+    height: 200px;
+  }
+  .box3 {
+    width: 100%;
+    height: 200px;
+  }
+  .box4 {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
+.containerMaster {
+   
+   height: 700px;
+   margin-left: 1%;
+   margin-right: 1%;
+   margin-top: 1%;
+   
+   padding: 10px;
+   
+   box-shadow: 0 0 20px rgba(147, 31, 224, 0.8);
+   
+
+   
+   
+  }
+  .containerCima{
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 33%;
+    
+    /*display: grid;
+    justify-content: center;
+    align-items: center;*/
+  }
+
+  
+  .box2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70%;
+    width: 67%;
+    
+  }
+
+  .containerBaixo{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .box3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90%;
+    width: 50%;
+  }
+  .box4{
+    
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(147, 31, 224, 0.8);
+    position: relative;
+  }
+
+  .imgPerfil{
+    border: 1px;
+    border-radius: 100%;
+    
+  }
+
+
+  .formField{
+   
+  }
+ .bar{
+    
+    
+    position: relative;
+    width: 300px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 2px rgba(147, 31, 224, 0.8);
+ }
+ .progress{
+   
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(to right, #c876ee, #9247e2);
+    transition: width 0.5s ease-in-out;
+    border-radius: 100px;
+    animation: progress 3s ease-in-out forwards infinite;
+ }
+ @keyframes progress {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+ .progresscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+ .percentage{
+  margin: 10px;
+  
+  font-size: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(147, 31, 224, 0.8);
+ }
+
+
+
+ .metaversoButton{
+  background-color: #a81dcf;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(147, 31, 224, 0.8);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  height: 100px;
+
+  width: 500px;
+ }
+ .metaversoButton:hover {
+    transform: scale(1.05);
+  }
+
+
+  

@@ -1,0 +1,163 @@
+.formulario{
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    
+    border-width: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.form_area{
+    background-color: rgb(255, 255, 255) ;
+    
+    border-radius: 15px;
+
+    position: relative;
+    margin-bottom: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+    height: 420px;
+    width: 330px;
+
+    
+   
+}
+
+.ra_field{
+    display: flexbox;
+    margin: 10px;
+   
+    text-align: center;
+    
+}
+
+
+.psw_field{
+    display: flexbox;
+    margin: 10px;
+    text-align: center;
+}
+
+.login_button{
+    width: 250px;
+    height: 50px;
+    margin-left: 10%;
+    background-image: linear-gradient( to right , #7B61FF, rgb(211, 21, 233));
+    border-color: white;
+    border-style: solid;
+    border-radius: 40px;
+}   
+.login_button:hover{
+    border: 6px solid #ffffff;
+    transition: all 0.2s ease-out;
+
+    
+}
+.Oculus{
+    
+        
+        height: 20px;
+        width: 100px;
+        color: white;
+        
+    
+}
+
+.line1{
+    
+    height: 5px;
+    width: 160px;
+
+    margin-top: 20px;
+    display: flex;
+  border: 0;
+  background: #d307e9;
+  border-radius: 10px;
+  
+}
+.line2{
+    height: 5px;
+    width: 160px;
+    size: 10px;
+
+    margin-top: 20px;
+    display: flex;
+  border: 0;
+  background: #d307e9;
+  border-radius: 10px;
+  
+  
+}
+.ou{
+    margin: 4px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.ou_box{
+    display: flex;
+    
+}
+
+.to_signup{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 250px;
+    height: 50px;
+    background-image: linear-gradient( to right , #7B61FF, rgb(211, 21, 233));
+    border-color: white;
+    border-style: solid;
+    border-radius: 40px;
+    
+    
+    
+}
+
+.to_signup:hover{
+    border: 6px solid #ffffff;
+    transition: all 0.2s ease-out;
+
+    
+}
+
+.sign_up_icon{
+    height: 20px;
+    width: 100px;
+    color: white;
+}
+.mainContainer{
+    display: grid;
+    justify-content: center;
+
+}
+
+.title{
+    box-shadow: 0px 0px 10px rgb(75, 72, 78);
+    width: 300px;
+}
+.googleProvider{
+    background-color: transparent;
+    border: none;
+    
+}
+
+.googleIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes neon {
+    0% {
+      box-shadow: 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff, 0 0 10px #0f0, 0 0 12px #0f0, 0 0 14px #0f0, 0 0 16px #0f0;
+    }
+    100% {
+      box-shadow: 0 0 4px #4285f4, 0 0 6px #4285f4, 0 0 8px #4285f4, 0 0 10px #ea4335, 0 0 12px #ea4335, 0 0 14px #fbbc05, 0 0 16px #fbbc05;
+    }
+  }

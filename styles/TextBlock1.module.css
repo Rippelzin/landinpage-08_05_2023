@@ -1,0 +1,90 @@
+.bodyy{
+    margin-top: 55%;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.title1{
+    
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 0px #000000, 0 0 0px #fff, 0 0 30px #c006e6, 0 0 40px #b70ec6, 0 0 70px #ff00de, 0 0 80px #9509dc, 0 0 100px #7a04b5, 0 0 150px #ff00de;
+    
+}
+.container_paragrafo1{
+    text-align: center;
+    max-width: 80%;
+    
+    
+    
+}
+.paragrafo1{
+    font-size: 30px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    text-align: left;
+    
+      
+      
+}
+.div_list{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ul_items{
+    list-style-type: none;
+    
+    
+    
+}
+.li_item{
+    border: 1px solid #c006e6;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow:  0 2px #c006e6, 0 0 2px #c006e6, 0 0 3px #c006e6, 0 0 4px #c006e6, 0 0 7px #c006e6, 0 0 8px #c006e6, 0 0 1px #c006e6, 0 0 15px #c006e6;
+
+    
+    
+   
+    text-align: left;
+    font-size: 40px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+.divImage{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title2{
+    margin-top: 100px;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0 0px #000000, 0 0 0px #fff, 0 0 30px #c006e6, 0 0 40px #b70ec6, 0 0 70px #ff00de, 0 0 80px #9509dc, 0 0 100px #7a04b5, 0 0 150px #ff00de;
+}
+
+
+.divPremios{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.premioIMG{
+    width: 300px;
+    height: 300px;
+}
+.premioIMG:hover{
+   
+    width: 350px;
+    height: 350px;
+    transition: 2s;
+}
